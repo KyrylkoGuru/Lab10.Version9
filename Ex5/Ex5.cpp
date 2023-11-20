@@ -10,7 +10,7 @@ int main()
     std::cout << "¬вед≥ть значенн€ зм≥нних x та y:";
     std::cin >> x >> y;
    
-    if (x > 0)
+    if (x >= 0)
     {
         res = sqrt((cos(x) - cos(y)) * sin(pow(x - y / (2 * y), 2)));
         std::cout << res << std::endl;
