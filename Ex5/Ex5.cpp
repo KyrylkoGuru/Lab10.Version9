@@ -6,18 +6,18 @@ int main()
 {
     SetConsoleOutputCP(1251);
     SetConsoleCP(1251);
-    double x, y, res1, res2;
+    double x, y, res;
     std::cout << "¬вед≥ть значенн€ зм≥нних x та y:";
     std::cin >> x >> y;
-    res1 = (cos(x) - cos(y)) * sin(pow(x - y / (2*y), 2));
-    if (res1 < 0)
+   
+    if (x > 0)
     {
-        std::cout << "¬ираз не маЇ в≥дпов≥д≥, оск≥льки вона за межами област≥ визначенн€";
+        res = sqrt((cos(x) - cos(y)) * sin(pow(x - y / (2 * y), 2)));
+        std::cout << res << std::endl;
     }
     else
     {
-        res2 = sqrt(res1);
-        std::cout << res2 << std::endl;
+        std::cout << "¬ведено некоректне значенн€ х. ќбласть визначенн€ - вс≥ д≥йсн≥ числа" << std::endl;
     }
     return 0;
 }
