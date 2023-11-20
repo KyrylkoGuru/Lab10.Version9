@@ -1,0 +1,3 @@
+﻿  Ex2.cpp
+D:\VisualStudio\Lab10V9\Lab10V9\Ex2\Ex2.cpp(9,38): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Ex2.vcxproj -> D:\VisualStudio\Lab10V9\Lab10V9\x64\Debug\Ex2.exe
